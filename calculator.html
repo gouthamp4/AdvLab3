@@ -1,0 +1,54 @@
+<html>
+    <head>    
+      <script src="calJS.js"></script>
+  <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+ <table>
+    <tr>
+        <td style="padding-left: 5em"><b>SCIENTIFIC CALCULATOR</b></td>
+    </tr>
+    <tr>
+       <td id="mainTable">
+          <div>
+             <div id="mainFunction">0</div>
+          </div>
+          <div>
+             <div>
+               <span onclick="scientificFunctn(1)" class="scientificNum">1</span>
+               <span onclick="scientificFunctn(2)" class="scientificNum">2</span>
+               <span onclick="scientificFunctn(3)" class="scientificNum">3</span>
+                <span onclick="scientificFunctn('C')" class="scientificFunction">C</span>
+                <span onclick="scientificFunctn('=')" class="scientificFunction">=</span>
+            </div>
+             <div>
+                <span onclick="scientificFunctn(4)" class="scientificNum">4</span>
+                <span onclick="scientificFunctn(5)" class="scientificNum">5</span>
+                <span onclick="scientificFunctn(6)" class="scientificNum">6</span>
+                <span onclick="scientificFunctn('+')" class="scientificFunction1">+</span>
+                <span onclick="scientificFunctn('-')" class="scientificFunction1">&ndash;</span>
+                </div>
+             <div>
+               <span onclick="scientificFunctn(7)" class="scientificNum">7</span>
+               <span onclick="scientificFunctn(8)" class="scientificNum">8</span>
+               <span onclick="scientificFunctn(9)" class="scientificNum">9</span>
+               <span onclick="scientificFunctn('*')" class="scientificFunction1">&#215;</span>
+               <span onclick="scientificFunctn('/')" class="scientificFunction1">&#247;</span>
+            </div>
+             <div>
+                <span onclick="scientificFunctn(0)" class="scientificNum">0</span>
+                <span onclick="scientificFunctn('.')" class="scientificNum">.</span>
+                <span onclick="scientificFunctn('+/-')" class="scientificFunction1">&#177;</span>
+                <span onclick="scientificFunctn('per')" class="scientificFunction1">%</span>
+            </div>
+          </div>
+       </td>
+    </tr>
+ </table>
+</body>
+ </html>
+
+ <!--
+   Reference link:
+   https://www.geeksforgeeks.org/html-scientific-calculator/
+ -->
